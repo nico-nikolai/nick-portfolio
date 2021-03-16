@@ -12,7 +12,7 @@ class Home extends Component {
           <div className="flexslider js-fullheight">
             <ul className="slides">
               <li style={{ backgroundImage: "url(images/img_bg.jpg)" }}>
-                <div className="overlay"></div>
+                <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
@@ -39,15 +39,16 @@ class Home extends Component {
                   </div>
                 </div>
               </li>
-              <li style={{ backgroundImage: "url(images/img_bg_2.jpg)" }}>
-                <div className="overlay"></div>
+              <li style={{ backgroundImage: "url(images/img_bg.jpg)" }}>
+                <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1>
-                            I am <br />a Developer
+                            I love building
+                            <br /> THINGS !!
                           </h1>
                           <p>
                             <a
@@ -56,7 +57,7 @@ class Home extends Component {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              View Github <i className="icon-briefcase3"></i>
+                              View Projects <i className="icon-briefcase3" />
                             </a>
                           </p>
                         </div>
